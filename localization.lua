@@ -2,6 +2,8 @@ local me,ns=...
 local lang=GetLocale()
 local l=LibStub("AceLocale-3.0")
 local L=l:NewLocale(me,"enUS",true,true)
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 L["%1$d%% lower than %2$d%%. Lower %s"] = true
 L["%s for a wowhead link popup"] = true
 L["%s start the mission without even opening the mission page. No question asked"] = true
@@ -130,6 +132,8 @@ L["You now need to press both %s and %s to start mission"] = true
 
 L=l:NewLocale(me,"ptBR")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% mais baixo que %2$d%%. Mais Baixo %s"
 L["%s for a wowhead link popup"] = "%s para o pop-up de link do wowhead"
 L["%s start the mission without even opening the mission page. No question asked"] = "%s iniciar a missão sem sequer abrir a página da missão. Nenhuma pergunta foi feita."
@@ -267,6 +271,8 @@ return
 end
 L=l:NewLocale(me,"frFR")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 --[[Translation missing --]]
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% lower than %2$d%%. Lower %s"
 --[[Translation missing --]]
@@ -455,26 +461,20 @@ return
 end
 L=l:NewLocale(me,"deDE")
 if (L) then
---[[Translation missing --]]
-L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% lower than %2$d%%. Lower %s"
---[[Translation missing --]]
-L["%s for a wowhead link popup"] = "%s for a wowhead link popup"
---[[Translation missing --]]
-L["%s start the mission without even opening the mission page. No question asked"] = "%s start the mission without even opening the mission page. No question asked"
---[[Translation missing --]]
-L["%s starts missions"] = "%s starts missions"
---[[Translation missing --]]
-L["%s to actually start mission"] = "%s to actually start mission"
---[[Translation missing --]]
-L["%s to blacklist"] = "%s to blacklist"
---[[Translation missing --]]
-L["%s to remove from blacklist"] = "%s to remove from blacklist"
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
+L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% niedriger als %2$d%%. Niedrigere %s"
+L["%s for a wowhead link popup"] = "%s für ein Wowhead-Link-Popup"
+L["%s start the mission without even opening the mission page. No question asked"] = "%s Starte die Mission ohne die Missions Seite zu öffnen. Es wird keine weitere Frage gestellt."
+L["%s starts missions"] = "%s Startet die Mission"
+L["%s to actually start mission"] = "%s zum tatsächlichen Start der Mission"
+L["%s to blacklist"] = "%s zur Blacklist"
+L["%s to remove from blacklist"] = "%s um von der Blacklist zu entfernen."
 --[[Translation missing --]]
 L[ [=[%s, please review the tutorial
 (Click the icon to dismiss this message and start the tutorial)]=] ] = [=[%s, please review the tutorial
 (Click the icon to dismiss this message and start the tutorial)]=]
---[[Translation missing --]]
-L["%s, please review the tutorial\\n(Click the icon to dismiss this message)"] = "%s, please review the tutorial\\n(Click the icon to dismiss this message)"
+L["%s, please review the tutorial\\n(Click the icon to dismiss this message)"] = "%s, bitte lese das Tutorial durch\\n(Klicken Sie auf das Symbol, um diese Nachricht zu schließen)"
 --[[Translation missing --]]
 L["Allow to start a mission directly from the mission list page (no single mission page shown)"] = "Allow to start a mission directly from the mission list page (no single mission page shown)"
 L["Always counter increased resource cost"] = "Immer erhöhte Ressourcenkosten kontern"
@@ -646,6 +646,8 @@ return
 end
 L=l:NewLocale(me,"itIT")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% è inferiore a %2$d%%. Abbassa %s"
 --[[Translation missing --]]
 L["%s for a wowhead link popup"] = "%s for a wowhead link popup"
@@ -803,6 +805,8 @@ return
 end
 L=l:NewLocale(me,"koKR")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%2$d%%보다 %1$d%% 낮습니다. %3$s 낮습니다"
 L["%s for a wowhead link popup"] = "%s - wowhead 링크 팝업"
 L["%s start the mission without even opening the mission page. No question asked"] = "%s - 임무 페이지를 열지 않고 임무를 시작합니다. 아무것도 묻지 않습니다"
@@ -948,6 +952,8 @@ return
 end
 L=l:NewLocale(me,"esMX")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 --[[Translation missing --]]
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% lower than %2$d%%. Lower %s"
 L["%s for a wowhead link popup"] = "%2 para una ventana de enlace a Wowhead"
@@ -1137,6 +1143,8 @@ return
 end
 L=l:NewLocale(me,"ruRU")
 if (L) then
+L["and then by:"] = "а потом по:"
+L["Changes the second sort order of missions in Mission panel"] = "Меняет второй порядок сортировки заданий и Панели заданий."
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% ниже чем %2$d%%. Ниже %s."
 L["%s for a wowhead link popup"] = "%s чтобы показать ссылку на \"WoW Head\"."
 L["%s start the mission without even opening the mission page. No question asked"] = "%s начать задание ничего не спрашивая."
@@ -1273,6 +1281,8 @@ return
 end
 L=l:NewLocale(me,"zhCN")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%%低于%2$d%%，降低%s"
 --[[Translation missing --]]
 L["%s for a wowhead link popup"] = "%s for a wowhead link popup"
@@ -1431,6 +1441,8 @@ return
 end
 L=l:NewLocale(me,"esES")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 --[[Translation missing --]]
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%% lower than %2$d%%. Lower %s"
 --[[Translation missing --]]
@@ -1646,6 +1658,8 @@ return
 end
 L=l:NewLocale(me,"zhTW")
 if (L) then
+L["and then by:"] = "end than by:"
+L["Changes the second sort order of missions in Mission panel"] = "Changes the second sort order of missions in Mission panel"
 L["%1$d%% lower than %2$d%%. Lower %s"] = "%1$d%%低於%2$d%%，降低%s"
 L["%s for a wowhead link popup"] = "%s跳出wowhead連結"
 L["%s start the mission without even opening the mission page. No question asked"] = "按下 %s 一鍵派出任務。不用打開任務頁面，不做任何詢問。"
